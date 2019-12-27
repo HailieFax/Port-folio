@@ -1,9 +1,9 @@
-<nav>
+<footer>
 
     <ul>
 
-        <li>Copyright Hailie Fox 2019></li>
+        <li>
         
     </ul>
 
-</nav>
+<footer>
