@@ -30,6 +30,7 @@
 
                     CSS /Cascading Style sheet er det kodesprog man bruger til at style sin HTML dokumenter. Dette gør arbejdet nemmere at skille ad og arbejde uafhængigt af hinanden.
                     Stylingen af HTML foregår langt de fleste gange via stylesheet reference indlejring. Og er det denne der gør at man har nemmere ved at skulle skille tingene ad. Man kan også embedded via &lt;style&gt; tagget og den sidst og mindst brugte er via inline.
+                    <br>
                     
                     <br>De forskellige måder at style på har deres egne positive samt negative sider.
                     Inline er typisk set ned på, da det for det første bryder god kodeskik, men også ødelægger hele pointen i at have layout og struktur separat. Udover det kan det også være svært at style hele siden, hvis HTML inline stylingen kommer i konflikt med CSS stylingen. 
@@ -49,14 +50,14 @@
                     De skal adskilles med et kolon som bliver referet til som property/Value separartor og afsluttes altid med et semikolon/declaration speperator. Man kan sagtens have flere deklarationer under samme selector, og derfor er det vigtigt at huske en separator. 
                 </p>
 
-                <br> <img src="billeder/csssyntax.png" alt="CSS Syntax">
+                <br> <img src="billeder/csssyntax.svg" alt="CSS Syntax" class="center">
                 
                 <h3>Cascading</h3>
                 
                 Cascading eller som navnet angives på dansk kaskade er betegnelsen for at noget passere ned af, i en række af andre. Nemmeste måde at sige det på er at det er en nedarvning. Reglerne bestemmer hvilke deklarationer der er prioriteret over andre. 
                 For det meste er det soruce order / Kilde rækkefølgen. Dvs den sidste deklaration er den der har effekt. Det betyder at hvis 2 deklarationer der rammer det samme element, vil det være den sidste af de 2 der tager prioritet. 
-                [Billede Cascading]
-                På det viste eksempel ville det betyde at selvom de begge rammer h1 klassifiseringen, er det kun den sidste der har effekt, og derfor ville denne være sort. Hvis vi byttede rundt på gul og sort, ville teksten istedet være gul. 
+                <br> <img src="billeder/Cascading.svg" alt="Cascading">
+                <br> Det viste eksempel ville det betyde at selvom de begge rammer h1 klassifiseringen, er det kun den sidste der har effekt, og derfor ville denne være sort. Hvis vi byttede rundt på gul og sort, ville teksten istedet være gul. 
                 
                 
                 <h3>CSS Grid</h3>
@@ -68,11 +69,12 @@
                 
                 Visuelt eksempel er taget fra vores Onepage Projekt vi arbejde på i November 2018. Hvor faktisk havde undladt god kodeskik, men det var en del af vores fleksion over projektet efterfølgende. 
                 
-                <br> <img src="billeder/gridarea.png" alt="Grid area">
+                <br> <img src="billeder/csssyntax.svg" alt="CSS Syntax" class="center">
+                <br> <img src="billeder/cssgridarea.svg" alt="Grid area"  class="center">
                 
                 <br>Når alt derefter er indelt med et grid-area id kan de placeres i ens grid/gitter. Opstillingen der er vist her er ligedes også fra tidligere nævnte Onepage projekt
                 
-                <br> <img src="billeder/griddisplay.png" alt="Grid display">
+                <br> <img src="billeder/cssgriddisplay.svg" alt="Grid display" class="center">
                 
                 <br>Måden vi brugte ovenstående grid og grid-areas var for at have en tekst samt billede ved siden af hinanden og derefter centreret billede nedenunder som vist her
                 
@@ -93,9 +95,11 @@
 
 </body>
 
+<br>
+
 <footer>
 
-        Copyright Hailie Fox 2019 <a href="http://olex273g.apache.eadania.dk/portfolio/index.html">Index</a> <a href="webdesign.html">Tilbage til oversigt</a>
+        Copyright Hailie Fox 2019 <a href="index.html">Hjem</a> <a href="webdesign.html">Tilbage til oversigt</a>
 
 </footer>
 

@@ -1,38 +1,107 @@
-h2 {
-    size: 2em;
+
+/*Forsiden */
+  #introtekst {
     text-align: center;
-    padding-top: 75px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
+  #refleksion {
 
-h1 {
-    font-family: sans-serif;
-    color: blue(233, 233, 247);
-    font-size: 2em;
-    margin-top: 5px;
-    text-align: center;
-    padding-bottom: 20px;
-  }
+    font-style: italic;
 
+}
+  
+/*Navbar start*/
+.nav {
+  background-color: #333;
+  overflow: hidden;
+ 
+}
+
+
+.nav a {
+  float: left;
+  color:  rgb(226, 226, 226);
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.nav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/*Navbar slut*/
+
+/*Til billeder*/
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
+  }
+
+ .sp {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ } 
+
+ img {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+ /*Til billeder slut*/
+
+ h1 {
+  font-family: sans-serif;
+  font-size: 2em;
+  margin-top: 5px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+  h2 {
+    font-size: 1.5em;
+    text-align: center;
+    
   }
 
 
-body {
+  h3 {
+    font-size: 1em;
+    text-align: center;
+    
+  }
+
+ body {
   font-family: sans-serif;
-  font-size: 1.5em;
-  background-color: rgb(20, 20, 20);
-  color: rgb(17, 111, 124); 
-  margin: 5px;
+  font-size: 1em;
+  background-color: rgb(182, 182, 182);
+  color: rgb(0, 0, 0); 
+  margin: 20px;
 }
 
-footer {
-    font-size: small;
-    color: rgb(107, 104, 104);
+  footer {
+    font-size: 1em;
+    color: rgb(247, 240, 240);
     text-align: center;
     background-color: black;
   }
@@ -41,3 +110,224 @@ footer {
     margin: 0;
     padding: 20px;
   }
+
+ iframe {
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+  width:100%;
+}
+
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 40;
+    padding: 5px;
+  }
+ 
+  /*Design thinking grid 1 start*/
+  #dtgrid { 
+    display: grid;
+    grid-template-columns: 1f 1fr;
+    grid-row-gap: 50px;
+    grid-template-areas: 
+    "gruppe grundlag"
+    "tobias mie"
+  }
+  
+  #gruppe {
+
+  grid-area: gruppe
+
+  }
+
+  #grundlag {
+
+    grid-area: grundlag;
+
+  }
+
+  #tobias {
+
+    grid-area: tobias;
+
+  }
+
+  #mie {
+
+    grid-area: mie;
+
+  }
+ /*Design thinking grid 1 slut*/
+
+ /*Design thinking grid 2 start*/
+
+ #dtgrid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 50px;
+  grid-template-areas: 
+  "brainstorm1 gruppe2"
+  "nicklas skivebib"
+
+ }
+
+ #brainstorm1 {
+
+  grid-area: brainstorm1;
+
+ }
+
+ #gruppe2 {
+
+  grid-area: gruppe2;
+ }
+
+ #nicklas {
+
+  grid-area: nicklas;
+ }
+
+ #skivebib {
+
+  grid-area: skivebib;
+
+ }
+
+ /* Design thinking grid 2 slut*/
+
+ /* Design thinking grid 3 start*/
+
+ #dtgrid3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 50px;
+  grid-template-areas: 
+  "ide brainstorm"
+
+ }
+
+  #ide {
+
+    grid-area: ide;
+
+  }
+
+  #brainstorm {
+
+    grid-area: brainstorm;
+  }
+
+  /* Design Thinking grid 3 slut*/
+ 
+/* Fotografi grids*/
+  #fotogrid1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 50px;
+  grid-template-areas: 
+  "kortlukkertid langlukkertid"
+
+  }
+  
+  #kortlukkertid {
+
+    grid-area: kortlukkertid;
+  }
+
+  #langlukkertid {
+
+    grid-area: langlukkertid;
+  }
+
+  #fotogrid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 50px;
+    grid-template-areas: 
+    "iso100 iso25600"
+  
+    }
+    
+  #iso100 {
+
+    grid-area: iso100; 
+  }
+
+  #iso25600 {
+    
+    grid-area: iso25600;
+  }
+
+  #fotogrid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 50px;
+    grid-template-areas: 
+    "f1 f16"
+  
+    }
+    
+
+  #f1 {
+
+    grid-area: f1;
+  }
+
+  #f16 {
+
+    grid-area: f16;
+  }
+
+  /*fotografi grid slut*/
+
+  @media screen and (min-width: 1080px) {
+
+    h1 {
+      font-size: 2em;
+      margin-top: 5px;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+
+    h2 {
+      size: 1.5em;
+      text-align: center;
+      padding-top: 50px;
+    }
+  
+  
+    h3 {
+      size: 1m;
+      text-align: center;
+      padding-top: 50px;
+    }
+
+    body {
+  
+      font-size: 1.5em;
+      margin: 20px;
+    }
+    
+
+    footer {
+      font-size: 1em;
+      color: rgb(247, 240, 240);
+      text-align: center;
+      background-color: black;
+    }
+    
+    footer p {
+      margin: 0;
+      padding: 20px;
+    }
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+    }

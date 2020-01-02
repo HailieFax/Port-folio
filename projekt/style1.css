@@ -1,5 +1,5 @@
 
-#mitgrid { 
+#dtgrti { 
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-areas: 
@@ -8,6 +8,8 @@
   "f f f f f f"
   "g g g g g g";
 }
+
+
 
 body {
   font-family: 'Anton', sans-serif;
