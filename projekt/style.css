@@ -30,7 +30,6 @@
   
 }
 
-
 .nav a:hover {
   background-color: #ddd;
   color: black;
@@ -65,7 +64,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 80%;
 }
 
  /*Til billeder slut*/
@@ -223,68 +222,9 @@
 
   /* Design Thinking grid 3 slut*/
  
-/* Fotografi grids*/
-  #fotogrid1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-row-gap: 50px;
-  grid-template-areas: 
-  "kortlukkertid langlukkertid"
 
-  }
-  
-  #kortlukkertid {
-
-    grid-area: kortlukkertid;
-  }
-
-  #langlukkertid {
-
-    grid-area: langlukkertid;
-  }
-
-  #fotogrid2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-row-gap: 50px;
-    grid-template-areas: 
-    "iso100 iso25600"
-  
-    }
-    
-  #iso100 {
-
-    grid-area: iso100; 
-  }
-
-  #iso25600 {
-    
-    grid-area: iso25600;
-  }
-
-  #fotogrid3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-row-gap: 50px;
-    grid-template-areas: 
-    "f1 f16"
-  
-    }
-    
-
-  #f1 {
-
-    grid-area: f1;
-  }
-
-  #f16 {
-
-    grid-area: f16;
-  }
-
-  /*fotografi grid slut*/
-
-  @media screen and (min-width: 1080px) {
+  /*Desktop */
+  @media screen and (min-width: 1000px) {
 
     h1 {
       font-size: 2em;
@@ -308,8 +248,10 @@
 
     body {
   
-      font-size: 1.5em;
+      font-size: 1.2em;
       margin: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
     }
     
 
@@ -331,3 +273,275 @@
       margin-right: auto;
       width: 80%;
     }
+
+
+    /*Photoshop grid start*/
+    #psgrid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-row-gap: 50px;
+      grid-template-areas: 
+      "aminat mig2"
+      "magicarsten magimorten"
+      "maginiels magnus"
+      "reklame reklame"
+      "test1 test3"
+    
+      }
+
+      #aminat {
+
+        grid-area: aminat;
+      }      
+
+      #mig2 {
+
+        grid-area: mig2;
+      }
+
+      #magicarsten {
+
+        grid-area: magicarsten;
+      }
+
+      #magimorten {
+
+        grid-area: magimorten;
+      }
+
+      #maginiels {
+
+        grid-area: maginiels;
+      }
+
+      #magnus {
+
+        grid-area: magnus;
+      }
+
+      #reklame {
+
+        grid-area: reklame;
+      }
+
+      #test1 {
+
+        grid-area: test1;
+      }
+
+      #test3 {
+
+        grid-area: test3;
+      }
+
+      /*Photoshop grid slut*/
+
+      /* Fotografi grids*/
+    #fotogrid1 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-row-gap: 50px;
+      grid-template-areas: 
+      "kortlukkertid langlukkertid"
+    
+      }
+      
+      #kortlukkertid {
+    
+        grid-area: kortlukkertid;
+      }
+    
+      #langlukkertid {
+    
+        grid-area: langlukkertid;
+      }
+    
+      #fotogrid2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 50px;
+        grid-template-areas: 
+        "iso100 iso25600"
+      
+        }
+        
+      #iso100 {
+    
+        grid-area: iso100; 
+      }
+    
+      #iso25600 {
+        
+        grid-area: iso25600;
+      }
+    
+      #fotogrid3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 50px;
+        grid-template-areas: 
+        "f1 f16"
+      
+        }
+            
+      #f1 {
+    
+        grid-area: f1;
+      }
+    
+      #f16 {
+    
+        grid-area: f16;
+      }
+    
+           
+      #fotogrid4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 50px;
+        grid-template-areas: 
+        "foto1 foto1"
+        "foto2 foto2"
+        "foto3 foto4"
+        
+        }
+
+        #foto1 {
+
+          grid-area: foto1;
+        }
+
+        #foto2 { 
+
+          grid-area: foto2;
+        }
+
+        #foto3 {
+
+          grid-area: foto3;
+        }
+
+        #foto4 {
+
+          grid-area: foto4;
+        }
+        /*Fotografi grids slut*/
+
+        /*One page grid start*/
+        
+        #onepagegrid {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-row-gap: 50px;
+          grid-template-areas: 
+          "b2 b1"
+          "b3 b4"
+          "b7 b8"
+                     
+        }
+  
+          #b1 {
+  
+            grid-area: b1;
+          }
+  
+          #b2 { 
+  
+            grid-area: b2;
+          }
+  
+          #b3 {
+  
+            grid-area: b3;
+          }
+  
+          #b4 {
+  
+            grid-area: b4;
+          }
+
+          #b7 {
+
+            grid-area: b7;
+          }
+
+          #b8 {
+
+            grid-area: b8;
+          }
+
+        /* Onepage grid slut*/
+
+        /* Illustrator grid start*/
+        #illgrid {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-row-gap: 50px;
+          grid-template-areas: 
+          "c celtic"
+          "skjold logo"
+          "sol trekant"
+          "plante foxwip"
+        }
+
+        #c {
+          grid-area: c;
+        }
+        
+        #celtic {
+
+          grid-area: celtic;
+        }
+
+        #foxwip {
+
+          grid-area: foxwip;
+        }
+
+        #foxwip2 {
+
+          grid-area: foxwip2;
+        }
+
+        #logo {
+
+          grid-area: logo;
+        }
+
+        #plante {
+
+          grid-area: plante;
+        }
+
+        #skjold {
+
+          grid-area: skjold; 
+        }
+
+        #sol {
+
+          grid-area: sol;
+        }
+
+        #trekant {
+
+          grid-area: trekant;
+        }
+        /* Illustrator Grid slut*/
+
+        .il {
+
+          width:70%;
+        }
+        .cs {
+
+          width: 50%;
+        }
+    
+                
+        iframe {
+          display: block;
+          margin: 0 auto;
+          height:600px;
+          width: 800px;
+        }

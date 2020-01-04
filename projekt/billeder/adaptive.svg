@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 986 370" style="enable-background:new 0 0 986 370;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;}
+	.st3{font-family:'ArialMT';}
+	.st4{font-size:12px;}
+	.st5{fill:none;}
+	.st6{font-size:18px;}
+</style>
+<rect x="0.5" y="0.2" class="st0" width="984.6" height="370.5"/>
+<rect x="9" y="36" class="st1" width="658" height="311"/>
+<g>
+	<rect x="18.5" y="83.5" class="st2" width="169" height="254"/>
+	<path d="M187,84v253H19V84H187 M188,83H18v255h170V83L188,83z"/>
+</g>
+<g>
+	<rect x="197.5" y="83.5" class="st2" width="459" height="255"/>
+	<path d="M656,84v254H198V84H656 M657,83H197v256h460V83L657,83z"/>
+</g>
+<g>
+	<rect x="16.5" y="43.5" class="st2" width="640" height="30"/>
+	<path d="M656,44v29H17V44H656 M657,43H16v31h641V43L657,43z"/>
+</g>
+<text transform="matrix(1 0 0 1 253.4614 62)" class="st3 st4">Header</text>
+<rect x="86.3" y="195.6" class="st5" width="119.1" height="48"/>
+<text transform="matrix(1 0 0 1 86.3076 204.1348)" class="st3 st4">Nav</text>
+<rect x="370.8" y="193.6" class="st5" width="249.2" height="51.7"/>
+<text transform="matrix(1 0 0 1 370.769 202.1348)" class="st3 st4">Section</text>
+<rect x="246.3" y="8.3" class="st5" width="300" height="36"/>
+<text transform="matrix(1 0 0 1 207.3076 21.0874)" class="st3 st6">AdaptiveLayout eksempel</text>
+<rect x="285.9" y="351.6" class="st5" width="336.9" height="59.1"/>
+<text transform="matrix(1 0 0 1 285.8462 364.3955)" class="st3 st6">1440px</text>
+<rect x="696.5" y="35.8" class="st0" width="276.3" height="310.8"/>
+<rect x="696.5" y="35.5" class="st1" width="277" height="312"/>
+<rect x="696.5" y="82" class="st1" width="276.5" height="179"/>
+<rect x="696" y="268" class="st1" width="277.5" height="79"/>
+<rect x="696.5" y="42.5" class="st1" width="277" height="31"/>
+<rect x="808.9" y="351.6" class="st5" width="110.8" height="31.4"/>
+<text transform="matrix(1 0 0 1 808.9229 364.3955)" class="st3 st6">400px</text>
+<rect x="711.8" y="188.9" class="st5" width="28.6" height="31.4"/>
+<rect x="818" y="52" class="st5" width="177" height="20"/>
+<text transform="matrix(1 0 0 1 818 60.52)" class="st3 st4">Header</text>
+<rect x="822" y="167" class="st5" width="177" height="65"/>
+<text transform="matrix(1 0 0 1 822 175.52)" class="st3 st4">Nav</text>
+<rect x="822" y="299" class="st5" width="94" height="33"/>
+<text transform="matrix(1 0 0 1 822 307.5195)" class="st3 st4">Section</text>
+</svg>
