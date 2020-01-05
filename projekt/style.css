@@ -41,6 +41,7 @@
   color: white;
 }
 
+}
 /*Navbar slut*/
 
 /*Til billeder*/
@@ -54,9 +55,8 @@
  .sp {
 
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  align-content: right;
+  width: 100%;
  } 
 
  img {
@@ -529,6 +529,7 @@
         }
         /* Illustrator Grid slut*/
 
+        /* Billede størrelse justeringer*/
         .il {
 
           width:70%;
@@ -537,7 +538,15 @@
 
           width: 50%;
         }
+
+        .sp {
+
+          display: block;
+          align-content: right;
+          width: 40%;
+         } 
     
+        /*Billede størrelse justeringer slut*/
                 
         iframe {
           display: block;
@@ -545,3 +554,4 @@
           height:600px;
           width: 800px;
         }
+
