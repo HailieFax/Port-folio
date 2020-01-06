@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 365 166" style="enable-background:new 0 0 365 166;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{font-family:'MyriadPro-Regular';}
+	.st2{font-size:24px;}
+	.st3{fill:#FF0000;}
+	.st4{letter-spacing:24;}
+	.st5{letter-spacing:30;}
+	.st6{fill:#0000FF;}
+	.st7{letter-spacing:4;}
+	.st8{letter-spacing:27;}
+	.st9{letter-spacing:10;}
+	.st10{letter-spacing:17;}
+</style>
+<rect x="19" y="12" class="st0" width="596" height="596"/>
+<text transform="matrix(1 0 0 1 19 29.04)"><tspan x="0" y="0" class="st1 st2">#</tspan><tspan x="11.93" y="0" class="st3 st1 st2">tekst1</tspan><tspan x="72.91" y="0" class="st1 st2"> </tspan><tspan x="78" y="0" class="st1 st2 st4">	</tspan><tspan x="108" y="0" class="st1 st2 st5">	</tspan><tspan x="144" y="0" class="st1 st2">{  </tspan><tspan x="160.99" y="0" class="st6 st1 st2">grid-area</tspan><tspan x="251.78" y="0" class="st1 st2">: b ; }</tspan><tspan x="0" y="28.8" class="st1 st2">#</tspan><tspan x="11.93" y="28.8" class="st3 st1 st2">logo</tspan><tspan x="57.36" y="28.8" class="st1 st2"> </tspan><tspan x="62.45" y="28.8" class="st1 st2 st7">	</tspan><tspan x="72" y="28.8" class="st1 st2 st5">		</tspan><tspan x="144" y="28.8" class="st1 st2">{  </tspan><tspan x="160.99" y="28.8" class="st6 st1 st2">grid-area</tspan><tspan x="251.78" y="28.8" class="st1 st2">: c ; }</tspan><tspan x="0" y="57.6" class="st1 st2">#</tspan><tspan x="11.93" y="57.6" class="st3 st1 st2">logotekst </tspan><tspan x="111.12" y="57.6" class="st3 st1 st2 st8">	</tspan><tspan x="144" y="57.6" class="st1 st2">{  </tspan><tspan x="160.99" y="57.6" class="st6 st1 st2">grid-area</tspan><tspan x="251.78" y="57.6" class="st1 st2">: d ; }</tspan><tspan x="0" y="86.4" class="st1 st2">#</tspan><tspan x="11.93" y="86.4" class="st3 st1 st2">portrait</tspan><tspan x="87.53" y="86.4" class="st1 st2"> </tspan><tspan x="92.61" y="86.4" class="st1 st2 st9">	</tspan><tspan x="108" y="86.4" class="st1 st2 st5">	</tspan><tspan x="144" y="86.4" class="st1 st2">{  </tspan><tspan x="160.99" y="86.4" class="st6 st1 st2">grid-area</tspan><tspan x="251.78" y="86.4" class="st1 st2">: e ; }</tspan><tspan x="0" y="115.2" class="st1 st2">#</tspan><tspan x="11.93" y="115.2" class="st3 st1 st2">dyr </tspan><tspan x="49.7" y="115.2" class="st3 st1 st2 st10">	</tspan><tspan x="72" y="115.2" class="st3 st1 st2 st5">		</tspan><tspan x="144" y="115.2" class="st1 st2">{  </tspan><tspan x="160.99" y="115.2" class="st6 st1 st2">grid-area</tspan><tspan x="251.78" y="115.2" class="st1 st2">: f;  }</tspan></text>
+</svg>

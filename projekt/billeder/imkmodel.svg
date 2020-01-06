@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 380 388" style="enable-background:new 0 0 380 388;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{font-family:'MyriadPro-Regular';}
+	.st2{font-size:12px;}
+	.st3{fill:none;stroke:#000000;stroke-miterlimit:10;}
+</style>
+<rect x="153.2" y="16.67" class="st0" width="259.18" height="68.71"/>
+<text transform="matrix(1 0 0 1 153.1973 25.1934)" class="st1 st2">Kontekst/Kultur</text>
+<line class="st0" x1="176" y1="29" x2="176" y2="63"/>
+<polygon class="st3" points="194.31,65.88 191.35,71.01 188.38,76.13 185.43,71 182.47,65.88 "/>
+<line class="st3" x1="188.5" y1="65.5" x2="188.5" y2="38.5"/>
+<rect x="172" y="88.38" class="st0" width="60.46" height="25.38"/>
+<text transform="matrix(1 0 0 1 172 96.9048)" class="st1 st2">Medier</text>
+<line class="st0" x1="174.14" y1="95.09" x2="174.14" y2="129.09"/>
+<polygon class="st3" points="193.45,131.97 190.49,137.1 187.52,142.22 184.57,137.09 181.61,131.97 "/>
+<line class="st3" x1="187.64" y1="131.59" x2="187.64" y2="104.59"/>
+<rect x="171.23" y="150.54" class="st0" width="96" height="39.69"/>
+<text transform="matrix(1 0 0 1 171.231 159.0586)" class="st1 st2">Genre</text>
+<path class="st3" d="M236.85,290.5h-93.69c-7.54,0-13.65-6.11-13.65-13.65v-26.69c0-7.54,6.11-13.65,13.65-13.65h93.69
+	c7.54,0,13.65,6.11,13.65,13.65v26.69C250.5,284.39,244.39,290.5,236.85,290.5z"/>
+<line class="st0" x1="174.14" y1="156.09" x2="174.14" y2="190.09"/>
+<polygon class="st3" points="193.45,192.97 190.49,198.1 187.52,203.22 184.57,198.09 181.61,192.97 "/>
+<line class="st3" x1="187.64" y1="192.59" x2="187.64" y2="165.59"/>
+<rect x="171.23" y="213.69" class="st0" width="75.23" height="21.69"/>
+<text transform="matrix(1 0 0 1 171.231 222.2124)" class="st1 st2">(Kode)</text>
+<polygon class="st3" points="193.15,343.45 190.19,348.58 187.22,353.7 184.27,348.57 181.31,343.45 "/>
+<line class="st3" x1="187.34" y1="343.07" x2="187.34" y2="316.07"/>
+<rect x="140.15" y="296.31" class="st0" width="108.46" height="13.38"/>
+<text transform="matrix(1 0 0 1 140.1538 304.8271)" class="st1 st2">(Retoriske strategier)</text>
+<rect x="174.77" y="258.31" class="st0" width="90" height="22.15"/>
+<text transform="matrix(1 0 0 1 174.769 266.8271)" class="st1 st2">Tekst</text>
+<polygon class="st3" points="272.79,265.98 267.6,263.12 262.42,260.25 267.49,257.2 272.55,254.14 "/>
+<line class="st3" x1="273.05" y1="260.16" x2="300.04" y2="259.62"/>
+<polygon class="st3" points="104.22,256.55 109.38,259.45 114.54,262.36 109.44,265.37 104.36,268.39 "/>
+<line class="st3" x1="103.91" y1="262.36" x2="76.91" y2="262.68"/>
+<rect x="310.46" y="253.38" class="st0" width="94.62" height="34.62"/>
+<text transform="matrix(1 0 0 1 310.4619 261.9043)" class="st1 st2">Modtager</text>
+<rect x="17.38" y="257.85" class="st0" width="77.08" height="31.38"/>
+<text transform="matrix(1 0 0 1 17.3848 266.3652)" class="st1 st2">Afsender</text>
+<rect x="163" y="361.15" class="st0" width="136.62" height="27.69"/>
+<text transform="matrix(1 0 0 1 163 369.6738)" class="st1 st2">Referent</text>
+<rect x="202.46" y="321.69" class="st0" width="99.23" height="24.92"/>
+<text transform="matrix(1 0 0 1 202.4619 330.2119)" class="st1 st2">Reception</text>
+<rect x="122.54" y="320.31" class="st0" width="68.31" height="21.69"/>
+<text transform="matrix(1 0 0 1 122.5386 328.8271)" class="st1 st2">Produktion</text>
+</svg>

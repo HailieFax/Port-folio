@@ -1,0 +1,334 @@
+
+#dtgrti { 
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-areas: 
+  "b b b b b b"
+  "c c d d d d"
+  "f f f f f f"
+  "g g g g g g";
+}
+
+
+
+body {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.5em;
+  background-color: rgb(20, 20, 20);
+  color: rgb(17, 111, 124); 
+  margin: 5px;
+}
+
+h1 {
+  font-family: Anton;
+  color: blue(233, 233, 247);
+  font-size: 1.22em;
+  margin-top: 5px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#reklame {
+  height: 50%;
+  border-radius: 20px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+  
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+  
+.text {
+  color:rgb(255, 255, 255);
+  font-size: 0.77em;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+#tekst1 {
+  font-size: 0.84em;
+  grid-area: b;
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+#logo {
+  grid-area: c;
+  text-align: right;
+  margin-right: 10px;
+  padding-top: 40px;
+}
+
+#logo ul li {
+  list-style: none;
+}
+
+#logo ul li img {
+  height: 42px;
+  width: 42px;
+}
+
+#logotekst {
+  font-size: 0.9em;
+  grid-area: d;
+  padding-top: 40px;
+}
+
+#logo2 {
+  width: 100px;
+  margin-top: 10px;
+}
+
+#portrait2 {
+  width: 90%;
+}
+
+h2 {
+  size: 2em;
+  text-align: center;
+  padding-top: 75px;
+}
+
+#tekst2 {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 110px;
+}
+
+#storflaske {
+  width: 110%;
+  padding-bottom: 38px;
+}
+
+#dyr {
+  grid-area: f;
+}
+
+#dyrtekst {
+  grid-area: g;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+footer {
+  font-size: small;
+  color: rgb(107, 104, 104);
+  text-align: center;
+  background-color: black;
+}
+
+footer p {
+  margin: 0;
+  padding: 20px;
+}
+
+/* tablet stående*/
+@media screen and (min-width: 600px){
+
+h1 {
+  font-size: 1.8em;
+}
+
+.text {
+  color:rgb(255, 255, 255);
+  font-size: 0.77em;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 60%;
+}
+
+#tekst1 {
+  font-size: 1.1em;
+  padding-left: 9%;
+  padding-right: 9%;
+  padding-bottom: 20%;
+}
+
+h2{
+  font-size: 1.4em;
+}
+
+#tekst2 {
+  padding-left: 9%;
+  padding-right: 9%;
+  padding-bottom: 21%;
+  font-size: 1.1em;
+}
+
+#logo {
+  margin-bottom: 25%;
+}
+
+#logo ul li img {
+  height: 60px;
+  width: 60px;
+}
+
+#logotekst {
+  font-size: 1.2em;
+  grid-area: d;
+  margin-bottom: 30%;
+}
+
+#portrait {
+  width: 90%;
+  margin: 50px;
+}
+#storflaske {
+  width: 100%;
+  margin: 0;
+}
+#dyrtekst {
+  text-align: center;
+  font-size: 1.2em;
+}
+}
+
+/*Tablet liggende/desktop*/
+@media screen and (min-width: 1080px) { 
+
+#mitgrid { 
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-areas: 
+  "b b b b b b b b b b b"
+  "c c c c c d d d d d d"
+  "e e e e e e e e e e e"
+  "f f f f f f f f f f f"
+  "g g g g g g g g g g g";
+}
+
+#mitgrid2 {
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+  "h2 portrait2"
+  "tekst2 portrait2";
+}
+
+#h2 {
+
+  grid-area: h2;
+  
+}
+
+#portrait2 {
+  grid-area: portrait2;
+  width: 500px;
+  margin-top: 150px;
+  margin-left: 10%;
+}
+
+#tekst2 {
+  grid-area: tekst2;
+  padding-bottom: 150px;
+
+}
+
+h1 {
+  font-size: 3.4em;
+}
+
+#reklame {
+  height: 50%;
+  border-radius: 60px;
+
+}
+#logo {
+  margin-bottom: 25%;
+}
+
+#logo ul li img {
+  height: 60px;
+  width: 60px;
+}
+
+#logotekst {
+  font-size: 1.2em;
+  grid-area: d;
+  margin-bottom: 25%;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: transparent;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  position: absolute;
+  font-size: 3em;
+  color:rgba(255, 245, 245, 0.877);
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 1000px;
+}
+
+#tekst1{
+  padding: 15%;
+  font-size: 1.25em;
+}
+
+h2 {
+  padding-top: 20%;
+  padding-left: 2%;
+}
+
+#tekst2{
+  padding-left: 7%;
+  padding-right: 15%;
+  font-size: 1.25em;
+  padding-bottom: 35%;
+}
+
+#storflaske {
+
+  width: 900px;
+  margin-left: 300px;
+  
+
+}
+
+
+

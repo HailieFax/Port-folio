@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 458 342" style="enable-background:new 0 0 458 342;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{font-family:'MyriadPro-Regular';}
+	.st2{font-size:24px;}
+	.st3{fill:#FF0000;}
+	.st4{fill:#0000FF;}
+</style>
+<rect x="32" y="26" class="st0" width="583" height="514"/>
+<text transform="matrix(1 0 0 1 32 43.04)"><tspan x="0" y="0" class="st1 st2">#</tspan><tspan x="11.93" y="0" class="st3 st1 st2">mitgrid</tspan><tspan x="85.92" y="0" class="st1 st2"> { </tspan><tspan x="0" y="28.8" class="st1 st2">  </tspan><tspan x="10.18" y="28.8" class="st3 st1 st2">display</tspan><tspan x="81.02" y="28.8" class="st1 st2">: </tspan><tspan x="91.08" y="28.8" class="st4 st1 st2">grid</tspan><tspan x="131.49" y="28.8" class="st1 st2">;</tspan><tspan x="0" y="57.6" class="st1 st2">  </tspan><tspan x="10.18" y="57.6" class="st3 st1 st2">grid-template-columns</tspan><tspan x="241.82" y="57.6" class="st1 st2">: </tspan><tspan x="251.88" y="57.6" class="st4 st1 st2">1fr 1fr 1fr 1fr</tspan><tspan x="375.81" y="57.6" class="st1 st2">;</tspan><tspan x="0" y="86.4" class="st1 st2">  </tspan><tspan x="10.18" y="86.4" class="st3 st1 st2">grid-template-areas</tspan><tspan x="208.68" y="86.4" class="st1 st2">: </tspan><tspan x="0" y="115.2" class="st1 st2">  &quot;</tspan><tspan x="18.26" y="115.2" class="st4 st1 st2">b b b b</tspan><tspan x="88.15" y="115.2" class="st1 st2">&quot;</tspan><tspan x="0" y="144" class="st1 st2">  &quot;</tspan><tspan x="18.26" y="144" class="st4 st1 st2">c d d d</tspan><tspan x="84.89" y="144" class="st1 st2">&quot;</tspan><tspan x="0" y="172.8" class="st1 st2">  &quot;</tspan><tspan x="18.26" y="172.8" class="st4 st1 st2">e e e e</tspan><tspan x="81.62" y="172.8" class="st1 st2">&quot;</tspan><tspan x="0" y="201.6" class="st1 st2">  &quot;</tspan><tspan x="18.26" y="201.6" class="st4 st1 st2">f f f f</tspan><tspan x="61.56" y="201.6" class="st1 st2">&quot;</tspan><tspan x="0" y="230.4" class="st1 st2">  &quot;</tspan><tspan x="18.26" y="230.4" class="st4 st1 st2">g g g g</tspan><tspan x="87.19" y="230.4" class="st1 st2">&quot;;</tspan><tspan x="0" y="259.2" class="st1 st2">}</tspan></text>
+</svg>
